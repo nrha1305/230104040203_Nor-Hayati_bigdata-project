@@ -68,24 +68,40 @@ def detect_peak_hour(df):
 # =========================
 def fare_per_location(df):
     if df.empty:
-        return pd.Series()
+        return pd.Series(dtype="float64")
 
     return df.groupby("location")["fare"].sum().sort_values(ascending=False)
 
 
 def vehicle_distribution(df):
     if df.empty:
-        return pd.Series()
+        return pd.Series(dtype="int64")
 
     return df.groupby("vehicle_type").size().sort_values(ascending=False)
 
 
 def mobility_trend(df):
     if df.empty:
-        return pd.Series()
+        return pd.Series(dtype="float64")
 
     df = df.set_index("timestamp")
     return df["fare"].resample("10s").sum()
+
+
+# =========================
+# NEW (PRAKTIKUM 6)
+# WINDOW AGGREGATION
+# =========================
+def traffic_per_window(df):
+    """
+    Agregasi jumlah trip per menit (windowing)
+    Digunakan untuk visualisasi skala besar
+    """
+    if df.empty:
+        return None
+
+    df["timestamp"] = pd.to_datetime(df["timestamp"])
+    return df.set_index("timestamp").resample("1min").size()
 
 
 # =========================
@@ -95,5 +111,5 @@ def detect_anomaly(df):
     if df.empty:
         return pd.DataFrame()
 
-    # contoh: fare tinggi dianggap anomali
+    # contoh sederhana: fare tinggi dianggap anomali
     return df[df["fare"] > 80000]
