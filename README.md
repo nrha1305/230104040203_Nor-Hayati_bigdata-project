@@ -10,6 +10,7 @@
 <img width="1919" height="1136" alt="Screenshot 2026-04-30 095007" src="https://github.com/user-attachments/assets/96a420f1-51e8-4cf7-b9e3-6bcdca428372" />
 <img width="1914" height="1142" alt="Screenshot 2026-04-30 095017" src="https://github.com/user-attachments/assets/7f86fd0e-4650-4c43-8d39-05fc972ee179" />
 <img width="1912" height="1140" alt="Screenshot 2026-04-30 095028" src="https://github.com/user-attachments/assets/7408c477-dea1-4306-90ff-17662e53a1b4" />
+**•	Spark**
 <img width="1919" height="1135" alt="Screenshot 2026-04-30 095112" src="https://github.com/user-attachments/assets/04cd246b-18d3-4213-8477-2f328e1feb4a" />
 **•	Laporan Singkat Analisis Jam Tersibuk Berdasarkan Dashboard**
 	Berdasarkan hasil visualisasi pada dashboard Smart City AI Traffic, data lalu lintas berhasil ditampilkan dalam bentuk grafik Traffic Time Series untuk tiga area, yaitu AreaA, AreaB, dan AreaC. Dashboard menunjukkan perubahan jumlah kendaraan setiap interval 10 menit mulai pukul 07.00 hingga 08.30.
