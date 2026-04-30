@@ -1,3 +1,21 @@
+•	Script (main_uts_230104040203.py)
+<img width="1919" height="1199" alt="Screenshot 2026-04-30 095321" src="https://github.com/user-attachments/assets/6f6c80c7-8978-4d90-91f1-d770d901d1f1" />
+•	Script (dashboard_230104040203.py)
+<img width="1919" height="1199" alt="Screenshot 2026-04-30 095331" src="https://github.com/user-attachments/assets/6409d54c-a5c9-44f2-9974-cb1848fc04ad" />
+•	Screenshot (main_uts_230104040203.py) (python main_uts_230104040203.py)
+<img width="1918" height="1199" alt="Screenshot 2026-04-30 095414" src="https://github.com/user-attachments/assets/6b95a47f-16cf-4c95-b0e8-a9403c157998" />
+•	Screenshot (dashboard_230104040203.py) (streamlit run dashboard_230104040203.py)
+<img width="1919" height="1199" alt="Screenshot 2026-04-30 095521" src="https://github.com/user-attachments/assets/234dc1dc-ccee-47ea-a107-4d7f771df7d9" />
+Screenshot Dashboard Streamlit utuh (Header sampai Grafik Prediksi)
+<img width="1919" height="1136" alt="Screenshot 2026-04-30 095007" src="https://github.com/user-attachments/assets/96a420f1-51e8-4cf7-b9e3-6bcdca428372" />
+<img width="1914" height="1142" alt="Screenshot 2026-04-30 095017" src="https://github.com/user-attachments/assets/7f86fd0e-4650-4c43-8d39-05fc972ee179" />
+<img width="1912" height="1140" alt="Screenshot 2026-04-30 095028" src="https://github.com/user-attachments/assets/7408c477-dea1-4306-90ff-17662e53a1b4" />
+<img width="1919" height="1135" alt="Screenshot 2026-04-30 095112" src="https://github.com/user-attachments/assets/04cd246b-18d3-4213-8477-2f328e1feb4a" />
+•	Laporan Singkat Analisis Jam Tersibuk Berdasarkan Dashboard
+	Berdasarkan hasil visualisasi pada dashboard Smart City AI Traffic, data lalu lintas berhasil ditampilkan dalam bentuk grafik Traffic Time Series untuk tiga area, yaitu AreaA, AreaB, dan AreaC. Dashboard menunjukkan perubahan jumlah kendaraan setiap interval 10 menit mulai pukul 07.00 hingga 08.30.
+	Dari hasil pengamatan grafik, kepadatan kendaraan tertinggi terjadi pada rentang waktu sekitar pukul 07.50 hingga 08.20. Pada waktu tersebut, grafik menunjukkan peningkatan jumlah kendaraan yang cukup signifikan di beberapa area. AreaC menjadi area dengan total kendaraan tertinggi dengan jumlah 5686 kendaraan, disusul AreaB sebanyak 5322 kendaraan, dan AreaA sebanyak 5123 kendaraan.
+	Selain menampilkan grafik tren lalu lintas, dashboard juga memiliki fitur AI Prediction menggunakan metode Linear Regression. Berdasarkan prediksi sistem pada pukul 12.00, jumlah kendaraan diperkirakan mencapai sekitar 48 kendaraan. Hasil prediksi ini menunjukkan bahwa model Machine Learning dapat digunakan untuk memperkirakan kepadatan kendaraan berdasarkan data historis.
+	Secara keseluruhan, dashboard berhasil membantu proses monitoring lalu lintas, analisis tren kendaraan, serta prediksi kepadatan kendaraan pada waktu tertentu menggunakan teknologi Big Data dan Artificial Intelligence.
 <img width="899" height="930" alt="Screenshot 2026-04-18 163527" src="https://github.com/user-attachments/assets/89c9fee3-c544-4d6d-8b6c-626800413ae4" />
 <img width="1919" height="1123" alt="Screenshot 2026-04-18 162731" src="https://github.com/user-attachments/assets/937a97bd-d0d5-400c-8428-42f7a9d73c00" />
 <img width="1919" height="1127" alt="Screenshot 2026-04-18 163054" src="https://github.com/user-attachments/assets/1ebf506d-d0df-4600-9be9-e4760bf60880" />
